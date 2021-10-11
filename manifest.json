@@ -1,0 +1,13 @@
+{
+    "name": "Siteblocker",
+    "version": "1.0",
+    "description": "Blocks specific websites",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "icons/blocker.png"
+    },
+    "manifest_version": 2
+}
