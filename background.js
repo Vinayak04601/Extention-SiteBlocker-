@@ -10,6 +10,11 @@ const defaultFilters = [
 	"*://*.scorecardresearch.com/*",
 	"*://*.zedo.com/*",
     "*://*.instagram.com/*",
+    "*://*.facebook.com/*",
+    "*://*.twitter.com/*",
+    "*://*.reddit.com/*",
+    "*://*.tinder.com/*",
+    "*://*.omegle.com/*",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
